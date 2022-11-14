@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  /*100% = 16px = 1em so 70px would be (70/16)*100*/
+  font-size: 437.3%;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #66BFBF;
+  margin-bottom: 50px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  text-align: center;
+  position: relative;
+  padding: 100px;
+  background-color: #EAF6F6;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+}
+
+.profilep {
+  width: 250px;
+  height: 250px;
+  margin-top: 100px;
+}
+
+a {
+  margin:auto 20px auto;
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 1.19rem;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.s1 {
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin-right: 30px;
+}
+
+.s2 {
+  width: 250px;
+  height: 250px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px;
+  text-align: left;
+  line-height: 2;
+}
+
+.h3 {
+  margin-top: 100px;
+}
+
+hr {
+  width: 10%;
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 10px;
+  margin: 80px auto 80px auto;
+}
+
+.h2inskills {
+  color: #66BFBF;
+}
+
+.h3inskills {
+  padding-top: 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 30px;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.bottom-container>p {
+  color: #EAF6F6;
+  margin-bottom: 0;
+  font-size: 0.75rem;
+}
